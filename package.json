@@ -1,5 +1,6 @@
 {
   "name": "choose-when",
+  "version": "1.0.3",
   "keywords": [
     "choose-when",
     "condition-render",
@@ -8,14 +9,13 @@
     "条件渲染组件",
     "if-else"
   ],
-  "version": "1.0.1",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/index.es.js",
+  "module": "./dist/index.es.js",
   "typings": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
     }
   },
   "author": {
