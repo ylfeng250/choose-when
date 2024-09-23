@@ -10,6 +10,16 @@
       "require": "./dist/index.js"
     }
   },
+  "author": {
+    "name": "六奇",
+    "email": "1119030015@qq.com"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json",
+    "src/"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -22,7 +32,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
-    "@rollup/plugin-typescript": "^12.1.0",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -36,9 +45,12 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1",
-    "vite-plugin-dts": "^4.2.1"
-  },
-  "dependencies": {
+    "vite-plugin-dts": "^4.2.1",
     "tslib": "^2.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ylfeng250/choose-when"
+  },
+  "license": "MIT"
 }
