@@ -1,6 +1,6 @@
 {
   "name": "choose-when",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "keywords": [
     "choose-when",
     "condition-render",
@@ -35,8 +35,8 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
