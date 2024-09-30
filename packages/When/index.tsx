@@ -26,5 +26,10 @@ export default function When({
   condition,
   fallback = null,
 }: WhenProps) {
-  return condition ? children : fallback;
+  if (condition) {
+    return <>{children}</>;
+  } else if (fallback) {
+    return <>{fallback}</>;
+  }
+  return null;
 }

@@ -30,6 +30,5 @@ export default function Choose({ children }: ChooseProps) {
       }
     }
   }
-
   return otherwise || null;
 }
